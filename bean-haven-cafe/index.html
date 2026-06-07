@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Haven Café</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <h1>Bean Haven Café</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Visit</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="overlay">
+    <h2>Where Coffee Meets Comfort ☕</h2>
+    <p>Crafted with love. Served with warmth.</p>
+    <button onclick="scrollToSection('menu')">Explore Menu</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about" data-aos="fade-up">
+  <h2>About Us</h2>
+  <p>
+    Bean Haven Café is a cozy corner in Kochi designed for those who love good coffee and calm spaces.
+    Whether you're a student working on assignments, a freelancer meeting clients, or friends catching up,
+    our café offers the perfect environment.
+  </p>
+
+  <p style="margin-top:15px;">
+    We focus on high-quality ingredients, freshly brewed coffee, and a relaxing ambiance that makes you
+    want to stay longer. Every cup we serve is crafted with care to give you a memorable experience.
+  </p>
+
+  <div class="about-highlights">
+    <div>✔ Free Wi-Fi</div>
+    <div>✔ Comfortable Seating</div>
+    <div>✔ Freshly Brewed Coffee</div>
+    <div>✔ Peaceful Work-Friendly Space</div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="menu" data-aos="fade-up">
+  <h2>Our Menu</h2>
+
+  <h3>Coffee</h3>
+  <div class="menu-grid">
+    <div class="card">☕ Cappuccino <span>₹120</span></div>
+    <div class="card">🥛 Latte <span>₹140</span></div>
+    <div class="card">🧊 Cold Coffee <span>₹160</span></div>
+    <div class="card">☕ Espresso <span>₹110</span></div>
+  </div>
+
+  <h3>Snacks</h3>
+  <div class="menu-grid">
+    <div class="card">🥪 Sandwich <span>₹150</span></div>
+    <div class="card">🍕 Veg Pizza <span>₹200</span></div>
+    <div class="card">🍔 Burger <span>₹180</span></div>
+    <div class="card">🍟 French Fries <span>₹120</span></div>
+  </div>
+
+  <h3>Desserts</h3>
+  <div class="menu-grid">
+    <div class="card">🍫 Brownie <span>₹100</span></div>
+    <div class="card">🍰 Cheesecake <span>₹180</span></div>
+    <div class="card">🍩 Donut <span>₹90</span></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery" data-aos="zoom-in">
+  <h2>Our Space</h2>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085">
+    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact" data-aos="fade-up">
+  <h2>Visit Us</h2>
+  <p>📍 Kochi, Kerala</p>
+  <p>⏰ 9 AM – 10 PM</p>
+
+  <p class="note">
+    *This is a demo website created for educational purposes.*
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Bean Haven Café</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
